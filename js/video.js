@@ -62,12 +62,12 @@ document.querySelector("#slider").addEventListener("change", function(){
 
 document.querySelector("#vintage").addEventListener("click", function(){
 	console.log("Video is vintage")
-	bd = document.querySelector("body")
+	bd = document.querySelector("video")
 	bd.classList.add("oldSchool")
 })
 
 document.querySelector("#orig").addEventListener("click", function(){
 	console.log("original videl")
-	bd = document.querySelector("body")
+	bd = document.querySelector("video")
 	bd.classList.remove("oldSchool")
 })
